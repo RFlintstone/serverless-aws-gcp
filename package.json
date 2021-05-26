@@ -1,0 +1,29 @@
+{
+  "name": "combined",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "functions-framework --target=http",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ruben_Flinterman",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-sdk": "^2.668.0",
+    "chai": "^4.2.0",
+    "config.json": "0.0.4",
+    "serverless-google-cloudfunctions": "*",
+    "serverless-http": "^2.3.2",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "@google-cloud/datastore": "^5.1.0",
+    "@google-cloud/functions-framework": "^1.5.1",
+    "deep-assign": "^3.0.0",
+    "express": "^4.17.1",
+    "mocha": "^7.1.2",
+    "serverless-google-cloudfunctions": "^3.0.0"
+  }
+}
