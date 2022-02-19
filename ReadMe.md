@@ -32,7 +32,7 @@ See more about the setup instructions of serverless here: https://www.serverless
 
 ### I want to create and deploy to a custom named function and organisation:
  
-If you want to use another functions / names feel free to change the serverless.yml files. Once it's changed there it will automaticly configure the stuff for you
+If you want to use other functions / names feel free to change the serverless.yml files. Once it's changed there it will automaticly configure the stuff for you
 (As long as you created the project with the same name on your serverless dashboard)
 
 How to configure serverless.yml: 
